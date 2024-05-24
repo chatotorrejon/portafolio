@@ -1,0 +1,103 @@
+body{
+    background-color: burlywood;
+}
+#invisiblecuepo1{
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    width: 800px;
+    height: 1400px;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+.marquee {
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee p {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+nav {
+    background-color: #444;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.introduction {
+    margin-bottom: 2rem;
+}
+
+.projects {
+    margin-top: 2rem;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    width: calc(33% - 2rem);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #333;
+    padding: 0.5rem;
+}
+#marquesina1{
+    width: 200px;
+    height: 100px;
+}
+img{
+    width: 180px;
+    height: 80px;
+}
